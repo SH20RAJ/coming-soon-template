@@ -1,111 +1,85 @@
-# Coming Soon Template Collection
+# Modern Coming Soon Templates Collection
 
-A collection of modern, responsive coming soon page templates perfect for websites under construction or launching soon. Each template features a countdown timer, email subscription form, and beautiful animations.
+A premium collection of 8 beautifully designed, fully responsive coming soon templates perfect for your next project launch.
 
-## Features
+## Templates Overview
 
-- Multiple unique template designs
-- Fully responsive layouts
-- Customizable countdown timer
-- Email subscription form integration
-- Modern and clean design
-- Cross-browser compatible
-- Easy to customize
-- Well-documented code
-- Regular updates
+1. **Classic Minimal**
+   - Full-screen background image with overlay
+   - Simple countdown timer
+   - Email subscription form
+   - Clean typography and modern design
+   - Responsive layout
 
-## Templates
+2. **Simple Social**
+   - Social media icons (Twitter, YouTube, Telegram)
+   - Minimalist typography with accent dot
+   - Clean and simple design
+   - Fast loading performance
 
-### Template 1 - Classic Minimal
-- Clean and minimal design
-- Countdown timer
-- Email subscription
-- Background overlay effect
-- Mobile responsive
-- Perfect for professional websites
-- Smooth animations
+3. **Video Background**
+   - Full-screen video background with overlay
+   - Parallax scrolling effects
+   - Contact form with name and email fields
+   - Countdown timer with modern design
+   - Font Awesome icons integration
 
-### Template 2 - Modern Gradient
-- Gradient background
-- Animated elements
-- Social media integration
-- Newsletter signup
-- Responsive design
-- Custom color schemes
-- Hover effects
+4. **Particle Effect**
+   - Interactive particle background
+   - Development progress indicator
+   - Modern countdown display
+   - Email subscription form
+   - Social media integration
 
-### Template 3 - Video Background
-- Full-screen video background
-- Parallax effects
-- Contact form
-- Social media links
-- Mobile-friendly layout
-- Video fallback support
-- Custom video controls
+5. **3D Cube**
+   - Interactive 3D cube rotation
+   - Countdown timer on front face
+   - Newsletter subscription on back face
+   - Social media links on right face
+   - About information on additional faces
 
-### Template 4 - Particle Effect
-- Interactive particle background
-- Progress bar
-- Subscription form
-- Social media icons
-- Responsive design
-- Customizable particle density
-- Performance optimized
+6. **Morphing SVG**
+   - Animated SVG background wave
+   - Clean and modern design
+   - SVG social media icons
+   - Email subscription form
+   - Countdown timer display
 
-### Template 5 - Slideshow Background
-- Multiple background slides
-- Fade transitions
-- Email capture form
-- Social media bar
-- Mobile-optimized
-- Custom transition timing
-- Image preloading
+7. **Split Screen Parallax**
+   - Split-screen responsive design
+   - Parallax scrolling effects
+   - Newsletter subscription form
+   - SVG social media icons
+   - Modern countdown display
 
-### Template 6 - 3D Elements
-- Interactive 3D components
-- Modern aesthetics
-- Newsletter integration
-- Social sharing
-- Responsive layout
-- WebGL effects
-- Fallback support
+8. **Interactive Particles**
+   - Interactive particle canvas
+   - Launch progress indicator
+   - Modern countdown display
+   - Email subscription system
+   - SVG social media integration
 
-### Template 7 - Minimal Dark
-- Dark mode design
-- Subtle animations
-- Contact options
-- Social links
-- Mobile-friendly
-- High contrast text
-- Custom typography
+## Getting Started
 
-### Template 8 - Interactive Particles
-- Interactive particle system
-- Launch progress tracking
-- Email subscription
-- SVG social icons
-- Modern countdown
-- Performance optimized
-- Touch interaction support
-
-## Installation
-
-1. Download the template package
-2. Extract the files
-3. Choose your preferred template from the `script` folder
-4. Edit the HTML, CSS, and JavaScript files as needed
-5. Upload to your web server
+1. Download and extract the template package
+2. Navigate to the `script` folder
+3. Choose your preferred template
+4. Copy the template files to your web server
 
 ## Customization
 
-### Changing the Countdown Date
-Open `script.js` and modify the target date:
+### Countdown Timer
+
+To modify the countdown target date, open `script.js` and update:
+
 ```javascript
 const targetDate = "2024-12-31";
 ```
 
-### Modifying Colors
-Edit the CSS variables in `style.css` to change the color scheme:
+### Color Scheme
+
+Customize colors by editing the CSS variables in `style.css`:
+
 ```css
 :root {
   --primary-color: #your-color;
@@ -114,15 +88,12 @@ Edit the CSS variables in `style.css` to change the color scheme:
 ```
 
 ### Email Integration
-Connect the subscription form to your preferred email service by updating the form action URL in `index.html`.
 
-## Performance Optimization
+To connect the subscription form to your email service:
 
-- All templates are optimized for fast loading
-- Images are compressed and lazy-loaded
-- CSS and JavaScript files are minified
-- Efficient animation implementations
-- Responsive images for different devices
+1. Open `index.html`
+2. Locate the form element
+3. Update the form action URL with your email service endpoint
 
 ## Browser Support
 
@@ -132,29 +103,16 @@ Connect the subscription form to your preferred email service by updating the fo
 - Edge (latest)
 - Opera (latest)
 
-## Troubleshooting
+## Credits
 
-### Common Issues
-- Video not playing: Check browser autoplay policies
-- Particles lagging: Adjust particle density in settings
-- Form not submitting: Verify email service configuration
-- Animations not smooth: Enable hardware acceleration
-
-## Updates
-
-Regular updates will be provided to add new features and maintain compatibility with the latest browser versions.
+- Font Awesome Icons
+- Google Fonts
+- Unsplash Images
 
 ## Support
 
-For support inquiries, please contact us through CodeCanyon.
-
-## Credits
-
-- Font: Poppins (Google Fonts)
-- Icons: Font Awesome
-- Particle Effects: tsParticles
-- 3D Effects: Three.js
+For support, please contact us through CodeCanyon.
 
 ## License
 
-This template is licensed under the CodeCanyon Regular License.
+This template collection is licensed under the CodeCanyon Regular License.

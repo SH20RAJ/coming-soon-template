@@ -17,264 +17,130 @@
     <meta name="twitter:description" content="A premium collection of 8 beautifully designed, fully responsive coming soon templates">
     <meta name="twitter:image" content="https://coming-soon-template-6cd.pages.dev/og.png">
     <link rel="canonical" href="https://coming-soon-template-6cd.pages.dev">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://unpkg.com/claymorphism-css/dist/clay.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#2563eb',
-                        secondary: '#3b82f6',
-                        accent: '#60a5fa'
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        @keyframes gradientBG {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
-        .animated-gradient {
-            background: linear-gradient(-45deg, #2563eb, #3b82f6, #60a5fa, #93c5fd);
-            background-size: 400% 400%;
-            animation: gradientBG 15s ease infinite;
-        }
-        .floating {
-            animation: floating 3s ease-in-out infinite;
-        }
-        @keyframes floating {
-            0% { transform: translate(0, 0px); }
-            50% { transform: translate(0, 15px); }
-            100% { transform: translate(0, -0px); }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-50">
-    <header class="animated-gradient py-32 text-white relative overflow-hidden">
-        <div class="container mx-auto px-4 text-center relative z-10">
-            <h1 class="text-6xl font-bold mb-8 animate__animated animate__fadeInDown">🚀 Modern Coming Soon Templates</h1>
-            <p class="text-2xl max-w-3xl mx-auto opacity-90 mb-12 animate__animated animate__fadeInUp animate__delay-1s">A premium collection of 8 beautifully designed, fully responsive coming soon templates perfect for your next project launch.</p>
-            <div class="max-w-4xl mx-auto mb-12 rounded-xl overflow-hidden shadow-2xl animate__animated animate__fadeInUp animate__delay-1s">
-                <div class="aspect-w-16 aspect-h-9 relative">
-                    <iframe src="https://www.youtube.com/embed/2snwovAD56Y" title="Template Collection Preview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="absolute inset-0 w-full h-full"></iframe>
-                </div>
-            </div>
-            <a href="#" class="inline-block px-8 py-4 bg-white text-primary font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 animate__animated animate__fadeInUp animate__delay-2s floating">Purchase on CodeCanyon</a>
-        </div>
-        <div class="absolute inset-0 bg-black opacity-10"></div>
+<body>
+    <header class="hero">
+        <h1>Modern Coming Soon Templates</h1>
+        <p>A collection of 8 unique and responsive coming soon templates for your next project</p>
     </header>
 
-    <main class="container mx-auto px-4 py-16">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-            <!-- Template 1 - Classic Minimal -->
-            <div class="bg-white rounded-xl clay shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
-                <div class="h-48 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center relative overflow-hidden">
-                    <img src="/screenshots/template-1.png" alt="Template 1 Preview" class="absolute inset-0 w-full h-full object-cover">
-                    <!-- <div class="absolute inset-0 bg-gradient-to-br from-blue-100 to-blue-200 opacity-90"></div> -->
-                    <!-- <div class="text-primary text-opacity-20 text-6xl font-bold relative z-10">Template 1</div> -->
-                </div>
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold text-primary mb-2">Classic Minimal</h3>
-                    <p class="text-gray-600 mb-4">Clean, professional design with smooth animations.</p>
-                    <ul class="space-y-2 mb-6 text-sm text-gray-500">
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Minimalist Design</li>
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Background Overlay Effects</li>
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Mobile-first Approach</li>
-                    </ul>
-                    <div class="flex space-x-3">
-                        <a href="script/template-1/dist/index.html" class="flex-1 px-4 py-2 text-primary border border-primary rounded-lg text-center hover:bg-blue-50 transition-colors" target="_blank">Live Demo</a>
-                        <a href="#" class="flex-1 px-4 py-2 bg-primary text-white rounded-lg text-center hover:bg-secondary transition-colors">Purchase</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Template 2 - Simple Social -->
-            <div class="bg-white rounded-xl clay shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
-                <div class="h-48 bg-gradient-to-br from-purple-100 to-purple-200 flex items-center justify-center relative overflow-hidden">
-                    <img src="/screenshots/template-2.png" alt="Template 2 Preview" class="absolute inset-0 w-full h-full object-cover">
-                    <!-- <div class="absolute inset-0 bg-gradient-to-br from-purple-100 to-purple-200 opacity-90"></div> -->
-                    <!-- <div class="text-purple-500 text-opacity-20 text-6xl font-bold relative z-10">Template 2</div> -->
-                </div>
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold text-primary mb-2">Simple Social</h3>
-                    <p class="text-gray-600 mb-4">Social media focused template with hover effects.</p>
-                    <ul class="space-y-2 mb-6 text-sm text-gray-500">
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Social Media Integration</li>
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Custom Hover Effects</li>
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Minimalist Typography</li>
-                    </ul>
-                    <div class="flex space-x-3">
-                        <a href="script/template-2/dist/index.html" class="flex-1 px-4 py-2 text-primary border border-primary rounded-lg text-center hover:bg-blue-50 transition-colors" target="_blank">Live Demo</a>
-                        <a href="#" class="flex-1 px-4 py-2 bg-primary text-white rounded-lg text-center hover:bg-secondary transition-colors">Purchase</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Template 3 - Video Background -->
-            <div class="bg-white rounded-xl clay shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
-                <div class="h-48 bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center relative overflow-hidden">
-                    <img src="/screenshots/template-3.png" alt="Template 3 Preview" class="absolute inset-0 w-full h-full object-cover">
-                    <!-- <div class="absolute inset-0 bg-gradient-to-br from-green-100 to-green-200 opacity-90"></div>
-                    <div class="text-green-500 text-opacity-20 text-6xl font-bold relative z-10">Template 3</div> -->
-                </div>
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold text-primary mb-2">Video Background</h3>
-                    <p class="text-gray-600 mb-4">Engaging template with full-screen video background.</p>
-                    <ul class="space-y-2 mb-6 text-sm text-gray-500">
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Video Background</li>
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Parallax Effects</li>
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Modern Countdown</li>
-                    </ul>
-                    <div class="flex space-x-3">
-                        <a href="script/template-3/src/index.html" class="flex-1 px-4 py-2 text-primary border border-primary rounded-lg text-center hover:bg-blue-50 transition-colors" target="_blank">Live Demo</a>
-                        <a href="#" class="flex-1 px-4 py-2 bg-primary text-white rounded-lg text-center hover:bg-secondary transition-colors">Purchase</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Template 4 - Particle Effect -->
-            <div class="bg-white rounded-xl clay shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
-                <div class="h-48 bg-gradient-to-br from-yellow-100 to-yellow-200 flex items-center justify-center relative overflow-hidden">
-                    <img src="/screenshots/template-4.png" alt="Template 4 Preview" class="absolute inset-0 w-full h-full object-cover">
-                </div>
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold text-primary mb-2">Particle Effect</h3>
-                    <p class="text-gray-600 mb-4">Interactive template with dynamic particle animations.</p>
-                    <ul class="space-y-2 mb-6 text-sm text-gray-500">
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Particle Background</li>
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Progress Indicator</li>
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Email Subscription</li>
-                    </ul>
-                    <div class="flex space-x-3">
-                        <a href="script/template-4/src/index.html" class="flex-1 px-4 py-2 text-primary border border-primary rounded-lg text-center hover:bg-blue-50 transition-colors" target="_blank">Live Demo</a>
-                        <a href="#" class="flex-1 px-4 py-2 bg-primary text-white rounded-lg text-center hover:bg-secondary transition-colors">Purchase</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Template 5 - Modern Gradient -->
-            <div class="bg-white rounded-xl clay shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
-                <div class="h-48 bg-gradient-to-br from-pink-100 to-pink-200 flex items-center justify-center relative overflow-hidden">
-                    <img src="/screenshots/template-5.png" alt="Template 5 Preview" class="absolute inset-0 w-full h-full object-cover">
-                </div>
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold text-primary mb-2">Modern Gradient</h3>
-                    <p class="text-gray-600 mb-4">Stunning gradient backgrounds with modern elements.</p>
-                    <ul class="space-y-2 mb-6 text-sm text-gray-500">
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Gradient Backgrounds</li>
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Animated Elements</li>
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Newsletter Signup</li>
-                    </ul>
-                    <div class="flex space-x-3">
-                        <a href="script/template-5/src/index.html" class="flex-1 px-4 py-2 text-primary border border-primary rounded-lg text-center hover:bg-blue-50 transition-colors" target="_blank">Live Demo</a>
-                        <a href="#" class="flex-1 px-4 py-2 bg-primary text-white rounded-lg text-center hover:bg-secondary transition-colors">Purchase</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Template 6 - 3D Elements -->
-            <div class="bg-white rounded-xl clay shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
-                <div class="h-48 bg-gradient-to-br from-indigo-100 to-indigo-200 flex items-center justify-center relative overflow-hidden">
-                    <img src="/screenshots/template-6.png" alt="Template 6 Preview" class="absolute inset-0 w-full h-full object-cover">
-                </div>
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold text-primary mb-2">3D Elements</h3>
-                    <p class="text-gray-600 mb-4">Interactive 3D components with modern aesthetics.</p>
-                    <ul class="space-y-2 mb-6 text-sm text-gray-500">
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Interactive 3D Components</li>
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>WebGL Effects</li>
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Fallback Support</li>
-                    </ul>
-                    <div class="flex space-x-3">
-                        <a href="script/template-6/src/index.html" class="flex-1 px-4 py-2 text-primary border border-primary rounded-lg text-center hover:bg-blue-50 transition-colors" target="_blank">Live Demo</a>
-                        <a href="#" class="flex-1 px-4 py-2 bg-primary text-white rounded-lg text-center hover:bg-secondary transition-colors">Purchase</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Template 7 - Minimal Dark -->
-            <div class="bg-white rounded-xl clay shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
-                <div class="h-48 bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center relative overflow-hidden">
-                    <img src="/screenshots/template-7.png" alt="Template 7 Preview" class="absolute inset-0 w-full h-full object-cover">
-                </div>
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold text-primary mb-2">Minimal Dark</h3>
-                    <p class="text-gray-600 mb-4">Dark mode template with minimalist design.</p>
-                    <ul class="space-y-2 mb-6 text-sm text-gray-500">
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Dark Mode Support</li>
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Clean Typography</li>
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Smooth Transitions</li>
-                    </ul>
-                    <div class="flex space-x-3">
-                        <a href="script/template-7/src/index.html" class="flex-1 px-4 py-2 text-primary border border-primary rounded-lg text-center hover:bg-blue-50 transition-colors" target="_blank">Live Demo</a>
-                        <a href="#" class="flex-1 px-4 py-2 bg-primary text-white rounded-lg text-center hover:bg-secondary transition-colors">Purchase</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Template 8 - Glassmorphism -->
-            <div class="bg-white rounded-xl clay shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
-                <div class="h-48 bg-gradient-to-br from-teal-100 to-teal-200 flex items-center justify-center relative overflow-hidden">
-                    <img src="/screenshots/template-8.png" alt="Template 8 Preview" class="absolute inset-0 w-full h-full object-cover">
-                </div>
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold text-primary mb-2">Glassmorphism</h3>
-                    <p class="text-gray-600 mb-4">Modern glass effect with blur backgrounds.</p>
-                    <ul class="space-y-2 mb-6 text-sm text-gray-500">
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Glass Effect UI</li>
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Blur Backgrounds</li>
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Modern Aesthetics</li>
-                    </ul>
-                    <div class="flex space-x-3">
-                        <a href="script/template-8/src/index.html" class="flex-1 px-4 py-2 text-primary border border-primary rounded-lg text-center hover:bg-blue-50 transition-colors" target="_blank">Live Demo</a>
-                        <a href="#" class="flex-1 px-4 py-2 bg-primary text-white rounded-lg text-center hover:bg-secondary transition-colors">Purchase</a>
-                    </div>
-                </div>
+    <main class="templates-grid">
+        <div class="template-card">
+            <img src="screenshots/template-1.png" alt="Classic Minimal Template">
+            <div class="template-info">
+                <h3>Classic Minimal</h3>
+                <p>Clean design with full-screen background and overlay effects</p>
+                <ul class="features">
+                    <li>Full-screen background image</li>
+                    <li>Countdown timer</li>
+                    <li>Email subscription</li>
+                    <li>Responsive layout</li>
+                </ul>
             </div>
         </div>
 
-        <!-- Purchase CTA Section -->
-        <div class="mt-20 text-center py-16 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-2xl shadow-xl">
-            <h2 class="text-4xl font-bold text-white mb-6">Ready to Launch Your Project?</h2>
-            <p class="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">Get all 8 premium templates and start building your perfect coming soon page today!</p>
-            <a href="#" class="inline-block px-8 py-4 bg-white text-primary font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">Purchase Now on CodeCanyon</a>
+        <div class="template-card">
+            <img src="screenshots/template-2.png" alt="Simple Social Template">
+            <div class="template-info">
+                <h3>Simple Social</h3>
+                <p>Minimalist design with social media integration</p>
+                <ul class="features">
+                    <li>Social media icons</li>
+                    <li>Minimalist typography</li>
+                    <li>Clean design</li>
+                    <li>Fast loading</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="template-card">
+            <img src="screenshots/template-3.png" alt="Video Background Template">
+            <div class="template-info">
+                <h3>Video Background</h3>
+                <p>Engaging template with video background and parallax effects</p>
+                <ul class="features">
+                    <li>Full-screen video background</li>
+                    <li>Parallax scrolling</li>
+                    <li>Contact form</li>
+                    <li>Modern countdown</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="template-card">
+            <img src="screenshots/template-4.png" alt="Particle Effect Template">
+            <div class="template-info">
+                <h3>Particle Effect</h3>
+                <p>Interactive template with dynamic particle animations</p>
+                <ul class="features">
+                    <li>Interactive particles</li>
+                    <li>Progress indicator</li>
+                    <li>Email subscription</li>
+                    <li>Social media links</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="template-card">
+            <img src="screenshots/template-5.png" alt="3D Cube Template">
+            <div class="template-info">
+                <h3>3D Cube</h3>
+                <p>Unique template with interactive 3D cube navigation</p>
+                <ul class="features">
+                    <li>3D cube rotation</li>
+                    <li>Multi-face content</li>
+                    <li>Newsletter form</li>
+                    <li>Social media integration</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="template-card">
+            <img src="screenshots/template-6.png" alt="Morphing SVG Template">
+            <div class="template-info">
+                <h3>Morphing SVG</h3>
+                <p>Modern design with smooth SVG background animation</p>
+                <ul class="features">
+                    <li>Animated SVG background</li>
+                    <li>Modern design</li>
+                    <li>SVG social icons</li>
+                    <li>Email subscription</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="template-card">
+            <img src="screenshots/template-7.png" alt="Split Screen Template">
+            <div class="template-info">
+                <h3>Split Screen Parallax</h3>
+                <p>Dynamic split-screen layout with parallax effects</p>
+                <ul class="features">
+                    <li>Split-screen design</li>
+                    <li>Parallax scrolling</li>
+                    <li>Newsletter form</li>
+                    <li>SVG social icons</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="template-card">
+            <img src="screenshots/template-8.png" alt="Interactive Particles Template">
+            <div class="template-info">
+                <h3>Interactive Particles</h3>
+                <p>Advanced template with particle system and progress tracking</p>
+                <ul class="features">
+                    <li>Interactive canvas</li>
+                    <li>Launch progress</li>
+                    <li>Email subscription</li>
+                    <li>Social integration</li>
+                </ul>
+            </div>
         </div>
     </main>
 
-    <!-- Footer Section -->
-    <footer class="bg-gray-900 text-white mt-20">
-        <div class="container mx-auto px-4 py-12">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div>
-                    <h3 class="text-xl font-semibold mb-4">About Us</h3>
-                    <p class="text-gray-400">We create premium quality coming soon templates for your next big project launch.</p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="/documentation/index.html" class="hover:text-white transition-colors">Documentation</a></li>
-                        <li><a href="mailto:sh20raj@gmail.com" class="hover:text-white transition-colors">Support</a></li>
-                     </ul>
-                </div>
-                <!-- <div>
-                    <h3 class="text-xl font-semibold mb-4">Connect With Us</h3>
-                    <div class="flex space-x-4">
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a>
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.6.113.793-.26.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg></a>
-                    </div>
-                </div> -->
-            </div>
-            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; 2025 Coming Soon Templates. All rights reserved.</p>
-            </div>
-        </div>
+    <footer>
+        <p>© 2024 Coming Soon Templates. All rights reserved.</p>
     </footer>
 </body>
 </html>
