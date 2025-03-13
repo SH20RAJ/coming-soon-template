@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon Template Documentation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        .container {
+            background: #fff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        code {
+            background: #f8f9fa;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        pre {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+        .template-preview {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .feature-list li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Coming Soon Template Documentation</h1>
+        
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="#getting-started">Getting Started</a></li>
+            <li><a href="#templates">Templates Overview</a></li>
+            <li><a href="#customization">Customization Guide</a></li>
+            <li><a href="#advanced">Advanced Features</a></li>
+            <li><a href="#troubleshooting">Troubleshooting</a></li>
+        </ul>
+
+        <h2 id="getting-started">Getting Started</h2>
+        <p>Follow these steps to quickly set up your coming soon page:</p>
+        <ol>
+            <li>Download and extract the template package</li>
+            <li>Navigate to the <code>script</code> folder</li>
+            <li>Choose your preferred template</li>
+            <li>Copy the template files to your web server</li>
+            <li>Configure the countdown timer and email subscription</li>
+        </ol>
+
+        <h2 id="templates">Templates Overview</h2>
+        
+        <div class="template-preview">
+            <h3>Template 1 - Classic Minimal</h3>
+            <p>A clean, minimalist design perfect for professional websites.</p>
+            <h4>Features:</h4>
+            <ul class="feature-list">
+                <li>Responsive design that works on all devices</li>
+                <li>Customizable countdown timer</li>
+                <li>Email subscription form with validation</li>
+                <li>Smooth background overlay effect</li>
+                <li>Easy color scheme customization</li>
+            </ul>
+        </div>
+
+        <h2 id="customization">Customization Guide</h2>
+        <h3>Countdown Timer</h3>
+        <p>To modify the countdown target date, open <code>script.js</code> and update the following:</p>
+        <pre><code>const targetDate = "2024-12-31";</code></pre>
+
+        <h3>Color Scheme</h3>
+        <p>Customize colors by editing the CSS variables in <code>style.css</code>:</p>
+        <pre><code>:root {
+  --primary-color: #your-color;
+  --secondary-color: #your-color;
+}</code></pre>
+
+        <h3>Email Integration</h3>
+        <p>To connect the subscription form to your email service:</p>
+        <ol>
+            <li>Open <code>index.html</code></li>
+            <li>Locate the form element</li>
+            <li>Update the form action URL with your email service endpoint</li>
+        </ol>
+
+        <h2 id="advanced">Advanced Features</h2>
+        <h3>Custom Backgrounds</h3>
+        <p>You can use images, videos, or gradient backgrounds:</p>
+        <pre><code>// For image background
+.container .image {
+  background: url('your-image.jpg');
+}
+
+// For video background
+&lt;video autoplay muted loop id="myVideo"&gt;
+  &lt;source src="your-video.mp4" type="video/mp4"&gt;
+&lt;/video&gt;</code></pre>
+
+        <h2 id="troubleshooting">Troubleshooting</h2>
+        <h3>Common Issues</h3>
+        <ul>
+            <li><strong>Countdown not working:</strong> Check if the target date is properly formatted</li>
+            <li><strong>Email form not submitting:</strong> Verify the form action URL</li>
+            <li><strong>Background image not showing:</strong> Ensure the image path is correct</li>
+        </ul>
+
+        <h3>Browser Compatibility</h3>
+        <p>The templates are tested and working on:</p>
+        <ul>
+            <li>Chrome (latest)</li>
+            <li>Firefox (latest)</li>
+            <li>Safari (latest)</li>
+            <li>Edge (latest)</li>
+            <li>Opera (latest)</li>
+        </ul>
+    </div>
+</body>
+</html>

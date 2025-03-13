@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #0a0a0a;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background svg {
+    width: 100%;
+    height: 100%;
+}
+
+.morph {
+    fill: #2a2a2a;
+    animation: morphing 15s ease-in-out infinite;
+}
+
+@keyframes morphing {
+    0% { d: path('M0,50 Q25,45 50,50 T100,50 V100 H0 Z'); }
+    33% { d: path('M0,50 Q25,55 50,50 T100,50 V100 H0 Z'); }
+    66% { d: path('M0,50 Q25,35 50,50 T100,50 V100 H0 Z'); }
+    100% { d: path('M0,50 Q25,45 50,50 T100,50 V100 H0 Z'); }
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    background: linear-gradient(45deg, #ffffff, #888888);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.countdown {
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.time-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 80px;
+}
+
+.time-block span {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.time-block .label {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    opacity: 0.7;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.subscribe-form input {
+    flex: 1;
+    padding: 15px 20px;
+    border: 2px solid #333;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.subscribe-form input:focus {
+    outline: none;
+    border-color: #666;
+}
+
+.subscribe-form button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.subscribe-form button:hover {
+    transform: scale(1.05);
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: white;
+    transition: opacity 0.3s;
+}
+
+.icon:hover {
+    opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    .countdown {
+        gap: 15px;
+    }
+
+    .time-block {
+        min-width: 60px;
+    }
+
+    .time-block span {
+        font-size: 28px;
+    }
+
+    .subscribe-form {
+        flex-direction: column;
+    }
+
+    .subscribe-form button {
+        width: 100%;
+    }
+}
