@@ -83,6 +83,96 @@
             </ul>
         </div>
 
+        <div class="template-preview">
+            <h3>Template 2 - Simple Social</h3>
+            <p>A straightforward template focusing on social media integration.</p>
+            <h4>Features:</h4>
+            <ul class="feature-list">
+                <li>Social media icons with hover effects</li>
+                <li>Minimalist typography</li>
+                <li>Custom dot accent</li>
+                <li>Lightweight and fast-loading</li>
+            </ul>
+        </div>
+
+        <div class="template-preview">
+            <h3>Template 3 - Video Background</h3>
+            <p>An engaging template with a full-screen video background.</p>
+            <h4>Features:</h4>
+            <ul class="feature-list">
+                <li>Full-screen video background with overlay</li>
+                <li>Parallax scrolling effects</li>
+                <li>Contact form with validation</li>
+                <li>Social media integration</li>
+                <li>Modern countdown display</li>
+            </ul>
+        </div>
+
+        <div class="template-preview">
+            <h3>Template 4 - Particle Effect</h3>
+            <p>An interactive template with dynamic particle animations.</p>
+            <h4>Features:</h4>
+            <ul class="feature-list">
+                <li>Interactive particle background</li>
+                <li>Progress bar indicator</li>
+                <li>Email subscription system</li>
+                <li>Social media links</li>
+                <li>Modern countdown timer</li>
+            </ul>
+        </div>
+
+        <div class="template-preview">
+            <h3>Template 5 - 3D Cube</h3>
+            <p>A unique template with an interactive 3D cube interface.</p>
+            <h4>Features:</h4>
+            <ul class="feature-list">
+                <li>Interactive 3D cube navigation</li>
+                <li>Multi-face content display</li>
+                <li>Newsletter subscription</li>
+                <li>Social media integration</li>
+                <li>About and contact information</li>
+            </ul>
+        </div>
+
+        <div class="template-preview">
+            <h3>Template 6 - Morphing SVG</h3>
+            <p>A modern template with smooth SVG morphing animations.</p>
+            <h4>Features:</h4>
+            <ul class="feature-list">
+                <li>Animated SVG background</li>
+                <li>Clean and modern design</li>
+                <li>SVG social media icons</li>
+                <li>Email notification form</li>
+                <li>Countdown timer</li>
+            </ul>
+        </div>
+
+        <div class="template-preview">
+            <h3>Template 7 - Split Screen Parallax</h3>
+            <p>A dynamic template with split-screen layout and parallax effects.</p>
+            <h4>Features:</h4>
+            <ul class="feature-list">
+                <li>Split-screen design</li>
+                <li>Parallax scrolling effects</li>
+                <li>Newsletter subscription</li>
+                <li>SVG social icons</li>
+                <li>Responsive countdown display</li>
+            </ul>
+        </div>
+
+        <div class="template-preview">
+            <h3>Template 8 - Interactive Particles</h3>
+            <p>An advanced template with interactive particle system and progress tracking.</p>
+            <h4>Features:</h4>
+            <ul class="feature-list">
+                <li>Interactive particle canvas</li>
+                <li>Launch progress indicator</li>
+                <li>Email subscription system</li>
+                <li>SVG social media icons</li>
+                <li>Modern countdown display</li>
+            </ul>
+        </div>
+
         <h2 id="customization">Customization Guide</h2>
         <h3>Countdown Timer</h3>
         <p>To modify the countdown target date, open <code>script.js</code> and update the following:</p>
@@ -105,23 +195,35 @@
 
         <h2 id="advanced">Advanced Features</h2>
         <h3>Custom Backgrounds</h3>
-        <p>You can use images, videos, or gradient backgrounds:</p>
-        <pre><code>// For image background
-.container .image {
-  background: url('your-image.jpg');
-}
+        <p>Each template supports different background customization:</p>
+        <ul>
+            <li>Template 1: Image or gradient backgrounds</li>
+            <li>Template 3: Video background customization</li>
+            <li>Template 4 & 8: Particle system configuration</li>
+            <li>Template 6: SVG path customization</li>
+            <li>Template 7: Split-screen background images</li>
+        </ul>
 
-// For video background
-&lt;video autoplay muted loop id="myVideo"&gt;
-  &lt;source src="your-video.mp4" type="video/mp4"&gt;
-&lt;/video&gt;</code></pre>
+        <h3>Animation Settings</h3>
+        <p>Adjust animation parameters in <code>script.js</code>:</p>
+        <pre><code>// For particle templates
+const particleConfig = {
+  particles: {
+    number: { value: 80 },
+    speed: { value: 3 }
+  }
+};
+
+// For morphing SVG
+const morphDuration = 2000; // milliseconds</code></pre>
 
         <h2 id="troubleshooting">Troubleshooting</h2>
         <h3>Common Issues</h3>
         <ul>
             <li><strong>Countdown not working:</strong> Check if the target date is properly formatted</li>
             <li><strong>Email form not submitting:</strong> Verify the form action URL</li>
-            <li><strong>Background image not showing:</strong> Ensure the image path is correct</li>
+            <li><strong>Background media not loading:</strong> Ensure all file paths are correct</li>
+            <li><strong>Animations not smooth:</strong> Check browser compatibility and reduce particle count</li>
         </ul>
 
         <h3>Browser Compatibility</h3>
@@ -132,6 +234,15 @@
             <li>Safari (latest)</li>
             <li>Edge (latest)</li>
             <li>Opera (latest)</li>
+        </ul>
+
+        <h3>Performance Optimization</h3>
+        <p>For better performance:</p>
+        <ul>
+            <li>Optimize and compress images</li>
+            <li>Use appropriate video formats and sizes</li>
+            <li>Adjust particle count based on device capabilities</li>
+            <li>Minify CSS and JavaScript files</li>
         </ul>
     </div>
 </body>

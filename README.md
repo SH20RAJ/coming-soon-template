@@ -22,6 +22,8 @@ A collection of modern, responsive coming soon page templates perfect for websit
 - Email subscription
 - Background overlay effect
 - Mobile responsive
+- Perfect for professional websites
+- Smooth animations
 
 ### Template 2 - Modern Gradient
 - Gradient background
@@ -29,6 +31,8 @@ A collection of modern, responsive coming soon page templates perfect for websit
 - Social media integration
 - Newsletter signup
 - Responsive design
+- Custom color schemes
+- Hover effects
 
 ### Template 3 - Video Background
 - Full-screen video background
@@ -36,6 +40,8 @@ A collection of modern, responsive coming soon page templates perfect for websit
 - Contact form
 - Social media links
 - Mobile-friendly layout
+- Video fallback support
+- Custom video controls
 
 ### Template 4 - Particle Effect
 - Interactive particle background
@@ -43,6 +49,44 @@ A collection of modern, responsive coming soon page templates perfect for websit
 - Subscription form
 - Social media icons
 - Responsive design
+- Customizable particle density
+- Performance optimized
+
+### Template 5 - Slideshow Background
+- Multiple background slides
+- Fade transitions
+- Email capture form
+- Social media bar
+- Mobile-optimized
+- Custom transition timing
+- Image preloading
+
+### Template 6 - 3D Elements
+- Interactive 3D components
+- Modern aesthetics
+- Newsletter integration
+- Social sharing
+- Responsive layout
+- WebGL effects
+- Fallback support
+
+### Template 7 - Minimal Dark
+- Dark mode design
+- Subtle animations
+- Contact options
+- Social links
+- Mobile-friendly
+- High contrast text
+- Custom typography
+
+### Template 8 - Interactive Particles
+- Interactive particle system
+- Launch progress tracking
+- Email subscription
+- SVG social icons
+- Modern countdown
+- Performance optimized
+- Touch interaction support
 
 ## Installation
 
@@ -72,6 +116,14 @@ Edit the CSS variables in `style.css` to change the color scheme:
 ### Email Integration
 Connect the subscription form to your preferred email service by updating the form action URL in `index.html`.
 
+## Performance Optimization
+
+- All templates are optimized for fast loading
+- Images are compressed and lazy-loaded
+- CSS and JavaScript files are minified
+- Efficient animation implementations
+- Responsive images for different devices
+
 ## Browser Support
 
 - Chrome (latest)
@@ -79,6 +131,14 @@ Connect the subscription form to your preferred email service by updating the fo
 - Safari (latest)
 - Edge (latest)
 - Opera (latest)
+
+## Troubleshooting
+
+### Common Issues
+- Video not playing: Check browser autoplay policies
+- Particles lagging: Adjust particle density in settings
+- Form not submitting: Verify email service configuration
+- Animations not smooth: Enable hardware acceleration
 
 ## Updates
 
@@ -92,6 +152,8 @@ For support inquiries, please contact us through CodeCanyon.
 
 - Font: Poppins (Google Fonts)
 - Icons: Font Awesome
+- Particle Effects: tsParticles
+- 3D Effects: Three.js
 
 ## License
 
